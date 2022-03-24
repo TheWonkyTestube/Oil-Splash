@@ -1,0 +1,8 @@
+{ 
+
+	"suggest.floatConfig":{
+		"border":true
+	},
+	"suggest.maxCompleteItemCount":10
+
+}

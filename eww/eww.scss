@@ -1,0 +1,211 @@
+*{
+    all: unset;
+}
+
+
+//Global Styles
+window {
+  background-color: rgb(0,0,0,0);
+  font-family: Cantarell;
+  padding:0px;
+}
+
+
+//Left Bar Formatting
+.chev1{
+  font-size: 23px;
+  padding:0px;
+  color: #111822;
+}
+
+.rofiButton{
+  font-size: 16px;
+  padding: 0px 10px;
+  color: #02e9e1;
+  background-color: #111822;
+  padding: 0px 0px 0px 0px;
+  min-width:40px
+}
+.rofiButton:hover{
+  color: #005bce;
+  font-size: 20px;
+}
+
+.offButton{
+  background-color: #111822;
+  color: #02e9e1;
+  font-size: 13px;
+  padding: 0px 0px 0px 0px;
+  min-width:40px
+}
+.offButton:hover{
+  color: #a9483d;
+  font-size: 20px;
+}
+
+.audioButton1{
+  font-size: 16px;
+  color: #02e9e1;
+  padding: 0px 0px 0px 0px;
+  background-color: #111822;
+  min-width:40px
+}
+.audioButton1:hover{
+  color: #049be2;
+  font-size: 20px;
+}
+
+.audioButton2{
+  font-size: 16px;
+  color: #02e9e1;
+  padding: 0px 0px 0px 0px;
+  min-width:40px;
+  background-color: #111822;
+}
+.audioButton2:hover{
+  color: #049be2;
+  font-size: 20px;
+}
+
+.chev2{
+  font-size: 23px;
+  background-color:rgb(0,0,0,0);
+  padding:0px;
+  color: #111822;
+}
+
+
+
+
+
+.workspaces{
+  font-size: 14px;
+  color: #01a546; 
+  background-color:#111822;
+  padding: 0px;
+}
+.workspaces :hover{
+  color: #fe5500;
+}
+.workspaces button{
+  min-width:40px
+}
+.naviButton :hover{
+  font-size: 20px;
+}
+.chev3{
+  padding-right: 0px;
+  color: #111822;
+  font-size: 23px;
+  background-color:rgb(0,0,0,0);
+}
+
+
+
+
+
+
+
+
+
+
+
+//Right Bar Formatting
+//First Box
+.chev4{
+  color:#111822;
+  font-size: 23px;
+  background-color:rgb(0,0,0,0)
+}
+.CPUbox{
+  color: #fe5500;
+  background-color: #111822;
+  font-size: 14px;
+  padding: 0px 5px
+}
+.RAMbox{
+  color: #fe5500;
+  background-color: #111822;
+  font-size: 14px;
+  padding: 0px 0px 0px 5px;
+}
+
+
+
+
+//Audio Buttons
+.chev5{
+  color:#111822;
+  font-size: 23px;
+  background-color:rgb(0,0,0,0)
+}
+
+
+
+
+
+//Volume SLider
+.chev6{
+  color:#e5e9f5;
+  font-size: 23px;
+  background-color:#111822;
+}
+
+.vol-slider{
+  padding:0px;
+  background-color: #111822;
+  color: #fe5500;
+  color: #000000;
+}
+.volIcon{
+  font-size:20px;
+  color: #fe5500;
+  padding-right:5px;
+}
+.volVal{
+  padding: 0px 3px;
+  color: #fe5500;
+  min-width:39px;
+  font-size: 15px;
+}
+.vol-slider scale trough highlight {
+  background-color: #fe5500;
+  border-radius: 3px;
+  color: #e5e9f5;
+}
+.vol-slider scale trough {
+  background-color: #111822;
+  border-radius: 3px;
+  min-height: 10px;
+  min-width: 75px;
+  margin-left: 3px;
+  margin-right: 3px;
+}
+
+
+
+
+//Clock
+.chev7{
+  color:#e5e9f5;
+  font-size: 23px;
+  background-color:#111822;
+}
+.time{
+  padding-right: 0px;
+  color: #fe5500;
+  font-size: 15px;
+  background-color: #111822;
+}
+.chev8{
+  color:#111822;
+  font-size: 23px;
+  background-color:rgb(0,0,0,0);
+}
+
+.music{
+	padding: 10px;
+	font-size: 16px;
+	background-color: #111822;
+	color:#d8458c;
+}

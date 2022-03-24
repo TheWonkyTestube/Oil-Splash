@@ -1,0 +1,62 @@
+configuration {
+	display-drun: "Run";
+	cycle: true;
+	show-icons: true;
+	window-thumbnail: true;
+
+}
+
+window {
+	font: "Cantarell 11";	
+	width: 700px;
+	height: 200px;
+	background-color: #010204;
+	border-color: #01a546;
+	border-radius: 15px;
+}
+
+
+prompt{
+	display-drun: "Run";
+	display-window: "Windows";
+} 
+
+entry {
+  	text-color: #e5e9f5;
+	placeholder: "Type to Search";
+}
+
+listview {
+	columns: 6;
+	border-color: #010204;
+	padding: 20px 10px 15px 20px;
+	background-color: #1a202e;
+	border-radius: 15px;
+}
+element{
+	padding: 35px 20px 35px 32px;
+	border-radius: 15px;
+	text-align: center;
+}
+element normal.normal{
+	background-color: #d8458c;
+}
+
+element alternate.normal{
+	background-color: #d8458c;
+	border-radius: 15px;
+}
+
+element selected.normal{
+    	background-color: #fe5500;
+	border-radius: 15px;
+}
+
+element-icon{
+	size: 40px;
+	vertical-align:0.5;
+}
+
+element-text{
+	enabled: false;
+}

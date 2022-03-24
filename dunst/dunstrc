@@ -1,0 +1,46 @@
+[global]
+corner_radius=15
+notification_limit=3
+font = Cantarell 11
+format = "%a\n<b>%s</b>\n%b"
+sort = yes
+indicate_hidden = yes
+alignment = left
+word_wrap = yes
+ignore_newline = no
+stack_duplicates = yes
+hide_duplicate_count = yes
+shrink = no
+idle_threshold = 0
+show_indicators = no
+line_height = 3
+separator_height = 2
+padding = 6
+horizontal_padding = 6
+separator_color = frame
+dmenu = /usr/bin/dmenu -p dunst:
+browser = /usr/bin/qutebrowser
+icon_position = left
+max_icon_size = 80
+icon_path = /usr/share/icons/Paper/16x16/mimetypes/:/usr/share/icons/Paper/48x48/status/:/usr/share/icons/Paper/16x16/devices/:/usr/share/icons/Paper/48x48/notifications/:/usr/share/icons/Paper/48x48/emblems/
+progress_bar=true
+progress_bar_height=10
+script="/home/will/.local/bin/notify"
+
+[urgency_low]
+frame_color = "#01a546"
+foreground = "#01a546"
+background = "#1a202e"
+timeout = 6
+
+[urgency_normal]
+frame_color = "#fe5500"
+foreground = "#fe5500"
+background = "#1a202e"
+timeout = 100000
+
+[urgency_critical]
+frame_color = "#e10d00"
+foreground = "#e10d00"
+background = "#1a202e"
+timeout = 100000

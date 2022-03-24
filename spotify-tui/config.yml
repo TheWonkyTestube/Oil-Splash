@@ -1,0 +1,60 @@
+# Sample config file
+
+theme:
+  active: "254, 85, 0"# current playing song in list
+  banner: "2, 233, 225" # the "spotify-tui" banner on launch
+  error_border: "225, 13, 0" # error dialog border
+  error_text: "225, 13, 0" # error message text (e.g. "Spotify API reported error 404")
+  hint: "242, 163, 1" # hint text in errors
+  hovered: "1, 165, 70" #hovered pane border
+  inactive: "26, 32, 46" # borders of inactive panes
+  playbar_background: "1, 2, 4" # background of progress bar
+  playbar_progress: "1, 165, 70" # filled-in part of the progress bar
+  playbar_progress_text: "2, 233, 225" # song length and time played/left indicator in the progress bar
+  playbar_text: "229, 233, 245" # artist name in player pane
+  selected: "2, 233, 225" # a) selected pane border, b) hovered item in list, & c) track title in player
+  text: "229, 233, 245" # text in panes
+  header: "4, 155, 226" # header text in panes (e.g. 'Title', 'Artist', etc.)
+
+behavior:
+  seek_milliseconds: 5000
+  volume_increment: 10
+  tick_rate_milliseconds: 250
+  enable_text_emphasis: true
+  show_loading_indicator: true
+  enforce_wide_search_bar: true
+  liked_icon: ♥
+  shuffle_icon: 🔀
+  repeat_track_icon: 🔂
+  repeat_context_icon: 🔁
+  playing_icon: ▶
+  paused_icon: ⏸
+  set_window_title: true
+
+keybindings:
+  #Navigation
+  back: "ctrl-q"
+  jump_to_album: "a"
+  jump_to_artist_album: "A"
+  manage_devices: "d"
+  jump_to_context: "o"
+  
+  #Playback
+  decrease_volume: "-"
+  increase_volume: "+"
+  toggle_playback: " "
+  seek_backwards: "<"
+  seek_forwards: ">"
+  next_track: "n"
+  previous_track: "p"
+  
+  #Actions
+  copy_song_url: "c"
+  copy_album_url: "C"
+  help: "?"
+  shuffle: "ctrl-s"
+  repeat: "r"
+  search: "/"
+  audio_analysis: "v"
+  basic_view: "B"
+  add_item_to_queue: "z"
