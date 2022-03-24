@@ -49,7 +49,7 @@ set number
 set cursorline
 set laststatus=2
 set cmdheight=1
-set scrolloff=15
+set scrolloff=18
 set termguicolors
 set nowrap
 set sidescroll=50
